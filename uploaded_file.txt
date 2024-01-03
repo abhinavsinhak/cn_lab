@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form div {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+asp\\:Label, asp\\:TextBox {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+asp\\:Button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
