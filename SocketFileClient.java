@@ -34,7 +34,7 @@ public class SocketFileClient {
             out.println("DOWNLOAD");
             out.flush();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            String downloadedFilePath = "C:\\Users\\Sushant Sinha\\Desktop\\Rock_paper\\downloaded_file.txt";
+            String downloadedFilePath = "/home/sushant/Documents/downloaded.txt";
             BufferedWriter writer = new BufferedWriter(new FileWriter(downloadedFilePath));
             String line;
             while ((line = in.readLine()) != null) {
